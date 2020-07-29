@@ -6,13 +6,6 @@ void usage() {
   printf("sample: pcap_test wlan0\n");
 }
 
-int min(int a, int b){
-  if(a<b)
-    return a;
-  else
-    return b;
-}
-
 void printMAC(const u_char* data){
   int i;
   for(i=0; i<6; i++){
